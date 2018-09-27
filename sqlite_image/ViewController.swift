@@ -26,6 +26,9 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         if st == true{
             
             self.SaveImageInDocument(imagename: imgname, imagedata: img.image!);
+            
+            let nav = storyboard?.instantiateViewController(withIdentifier: "login") as! login;
+            self.navigationController?.pushViewController(nav, animated: true);
         }
         
         

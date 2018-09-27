@@ -16,6 +16,9 @@
 		E744ED7F215C9D2000D5E12E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E744ED7D215C9D2000D5E12E /* libsqlite3.0.tbd */; };
 		E744ED80215C9D2000D5E12E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E744ED7E215C9D2000D5E12E /* libsqlite3.tbd */; };
 		E744ED83215CA43800D5E12E /* sqltask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744ED82215CA43800D5E12E /* sqltask.swift */; };
+		E744ED85215CB1A600D5E12E /* DIsplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744ED84215CB1A600D5E12E /* DIsplay.swift */; };
+		E744ED87215CB1B500D5E12E /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744ED86215CB1B500D5E12E /* login.swift */; };
+		E744ED89215CB8E300D5E12E /* log.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E744ED88215CB8E300D5E12E /* log.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		E744ED7E215C9D2000D5E12E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E744ED81215C9DA600D5E12E /* sqlite_image-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sqlite_image-Bridging-Header.h"; sourceTree = "<group>"; };
 		E744ED82215CA43800D5E12E /* sqltask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sqltask.swift; sourceTree = "<group>"; };
+		E744ED84215CB1A600D5E12E /* DIsplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIsplay.swift; sourceTree = "<group>"; };
+		E744ED86215CB1B500D5E12E /* login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		E744ED88215CB8E300D5E12E /* log.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = log.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +72,14 @@
 		E744ED67215C9A2800D5E12E /* sqlite_image */ = {
 			isa = PBXGroup;
 			children = (
+				E744ED88215CB8E300D5E12E /* log.jpeg */,
 				E744ED7A215C9CF000D5E12E /* mydb.db */,
+				E744ED82215CA43800D5E12E /* sqltask.swift */,
 				E744ED68215C9A2800D5E12E /* AppDelegate.swift */,
 				E744ED6A215C9A2800D5E12E /* ViewController.swift */,
-				E744ED82215CA43800D5E12E /* sqltask.swift */,
 				E744ED6C215C9A2800D5E12E /* Main.storyboard */,
+				E744ED84215CB1A600D5E12E /* DIsplay.swift */,
+				E744ED86215CB1B500D5E12E /* login.swift */,
 				E744ED6F215C9A2800D5E12E /* Assets.xcassets */,
 				E744ED71215C9A2800D5E12E /* LaunchScreen.storyboard */,
 				E744ED74215C9A2800D5E12E /* Info.plist */,
@@ -147,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E744ED89215CB8E300D5E12E /* log.jpeg in Resources */,
 				E744ED73215C9A2800D5E12E /* LaunchScreen.storyboard in Resources */,
 				E744ED70215C9A2800D5E12E /* Assets.xcassets in Resources */,
 				E744ED6E215C9A2800D5E12E /* Main.storyboard in Resources */,
@@ -162,7 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E744ED83215CA43800D5E12E /* sqltask.swift in Sources */,
+				E744ED87215CB1B500D5E12E /* login.swift in Sources */,
 				E744ED6B215C9A2800D5E12E /* ViewController.swift in Sources */,
+				E744ED85215CB1A600D5E12E /* DIsplay.swift in Sources */,
 				E744ED69215C9A2800D5E12E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
